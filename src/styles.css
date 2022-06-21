@@ -2,6 +2,13 @@ body {
   font-family: sans-serif;
 }
 
+input {
+  border-radius: 16px;
+  border: none;
+  padding: 6px 16px;
+  outline: none;
+}
+
 .input-area {
   background-color: #c1ffff;
   width: 400px;
