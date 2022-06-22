@@ -21,6 +21,10 @@ button:hover {
   cursor: pointer;
 }
 
+li {
+  margin-right: 8px;
+}
+
 .header-title {
   text-align: center;
   font-weight: bold;
