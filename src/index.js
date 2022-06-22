@@ -46,6 +46,7 @@ const onClickAdd = () => {
     addTarget.appendChild(backButton);
 
     //完了リストに追加
+    document.getElementById("complete-list").appendChild(addTarget);
   });
 
   //button(削除)タグ追加
