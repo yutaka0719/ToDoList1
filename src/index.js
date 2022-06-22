@@ -13,6 +13,10 @@ const onClickAdd = () => {
   const li = document.createElement("li");
   li.innerText = inputText;
 
+  //button(完了)タグ追加
+  const completeButton = document.createElement("button");
+  completeButton.innerText = "完了";
+
   //divタグの子要素に各要素を設定
   div.appendChild(li);
 
